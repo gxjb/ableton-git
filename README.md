@@ -25,6 +25,10 @@ After cloning the repository, configure Git filters to handle `.als` files. Run 
 
 ## Gotchas
 
+### Windows 7z
+
+TODO
+
 ### Github Repo
 
 When using a Github Repo, the first push may fail:
