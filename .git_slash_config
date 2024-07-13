@@ -6,7 +6,7 @@
 	symlinks = false
 	ignorecase = true
 [filter "als"]
-  clean = "7z e -so %f > %f.xml && mv %f .recycling"
-  smudge = "7z a -tgzip %f %f.xml && mv %f.xml .recycling"
+  clean = "./clean.cmd %f"
+  smudge = "./smudge.cmd %f"
 [lfs]
 	repositoryformatversion = 0
