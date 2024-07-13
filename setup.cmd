@@ -1,1 +1,1 @@
-cp .git_slash_config .git/config
+type .git_slash_config >> .git/config

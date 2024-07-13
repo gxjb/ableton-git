@@ -23,6 +23,16 @@ After cloning the repository, configure Git filters to handle `.als` files. Run 
 ./setup.cmd
 ```
 
+## Usage
+
+```
+git add . && git add .
+git commit -m "Update Project X :100:"
+git push
+```
+
+> :warning: **You need to run git add twice!!!**
+
 ## Gotchas
 
 ### Windows 7z
