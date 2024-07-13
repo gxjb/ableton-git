@@ -27,7 +27,20 @@ After cloning the repository, configure Git filters to handle `.als` files. Run 
 
 ### Windows 7z
 
-TODO
+If you get the following error when running `7z.exe`...
+
+```text
+'7z' is not recognized as an internal or external command,
+operable program or batch file.
+```
+
+...then you need to add 7z to your PATH. Run:
+
+```bash
+set PATH=%PATH%;C:\Program Files\7-Zip\
+```
+
+See: https://stackoverflow.com/a/14122808
 
 ### Github Repo
 
@@ -55,6 +68,6 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
-## references
+## References
 
-[gh:clintburgos/ableton-git](https://github.com/clintburgos/ableton-git) -> abandoned, last commit 5 years ago (Mar 17, 2019)
+[gh:clintburgos/ableton-git](https://github.com/clintburgos/ableton-git) -> abandoned, does not work on my machine, last commit 5 years ago (Mar 17, 2019)
