@@ -27,7 +27,7 @@ After cloning the repository, configure Git filters to handle `.als` files. Run 
 
 ### Github Repo
 
-When using a github Repo, the first push may fail:
+When using a Github Repo, the first push may fail:
 
 ```text
 Uploading LFS objects:   0% (0/2), 0 B | 0 B/s, done.
