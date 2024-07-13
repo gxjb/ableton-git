@@ -1,0 +1,1 @@
+cp .git_slash_config .git/config

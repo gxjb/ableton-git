@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[filter "als"]
+  clean = "7z e -so %f > %f.xml && mv %f .recycling"
+  smudge = "7z a -tgzip %f %f.xml && mv %f.xml .recycling"
+[lfs]
+	repositoryformatversion = 0

@@ -1,0 +1,4 @@
+*.asd
+.recycling/
+!.recycling/README.md
+*.als
