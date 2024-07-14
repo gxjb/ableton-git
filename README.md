@@ -31,6 +31,7 @@ git commit -m "Update Project X :100:"
 git push
 ```
 
+> :warning: **You need to close ableton before `git add`!!!**
 > :warning: **You need to run git add twice!!!**
 
 ## Gotchas
