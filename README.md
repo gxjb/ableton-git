@@ -12,6 +12,13 @@ This project provides a setup for managing Ableton Live project files (*.als) wi
 
 Clone this repository to your local machine:
 
+TODO 
+- [ ] "Use this Template" -> Github screenshot reinpacken
+- [X] git config filter.<filter_name>.clean "command or external script for clean"
+- [X] git config filter.<filter_name>.smudge "command or external script for smudge"
+- [X] setup.cmd werden user mit doppelclick ausführen, daher sollte man eine success! meldung anzeigen mit pause
+- [ ] lokales repo fixen -> mit David Montag Abend
+
 ```bash
 git clone https://github.com/gxjb/ableton-git.git
 cd ableton-git
@@ -32,6 +39,7 @@ git push
 ```
 
 > :warning: **You need to close ableton before `git add`!!!**
+
 > :warning: **You need to run git add twice!!!**
 
 ## Gotchas

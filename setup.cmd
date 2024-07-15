@@ -1,2 +1,4 @@
 git lfs install
-type .git_slash_config >> .git/config
+git config filter.als.clean "gunzip"
+git config filter.als.smudge "gzip"
+pause
