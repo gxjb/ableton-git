@@ -5,61 +5,36 @@ This project provides a setup for managing Ableton Live project files (*.als) wi
 ## Prerequisites
 
 - git
-- git-lfs
-- 7z
+- git-lfs (optional, but preferred)
 
 ## Getting Started
 
-Clone this repository to your local machine:
+1. Navigate to https://github.com/gxjb/ableton-git
+2. On the top right, press the green button "Use this template" -> "Create a new repository"
+3. Run `./setup.cmd`
+4. Copy your Ableton projects to this folder
+5. Use this repo like you use any other git repo (git add, git commit, git push, etc.)
+6. ...
+7. Profit!
 
 TODO 
-- [ ] "Use this Template" -> Github screenshot reinpacken
+- [ ] dieses README fixen
+- [ ] demo project fixen -> .als.xml entfernen
+- [ ] "Use this Template" -> erklären
 - [X] git config filter.<filter_name>.clean "command or external script for clean"
 - [X] git config filter.<filter_name>.smudge "command or external script for smudge"
 - [X] setup.cmd werden user mit doppelclick ausführen, daher sollte man eine success! meldung anzeigen mit pause
-- [ ] lokales repo fixen -> mit David Montag Abend
-
-```bash
-git clone https://github.com/gxjb/ableton-git.git
-cd ableton-git
-```
-
-After cloning the repository, configure Git filters to handle `.als` files. Run the provided setup script:
-
-```bash
-./setup.cmd
-```
+- [X] lokales repo fixen -> mit David Montag Abend
 
 ## Usage
 
 ```
-git add . && git add .
+git add .
 git commit -m "Update Project X :100:"
 git push
 ```
 
-> :warning: **You need to close ableton before `git add`!!!**
-
-> :warning: **You need to run git add twice!!!**
-
 ## Gotchas
-
-### Windows 7z
-
-If you get the following error when running `7z.exe`...
-
-```text
-'7z' is not recognized as an internal or external command,
-operable program or batch file.
-```
-
-...then you need to add 7z to your PATH. Run:
-
-```bash
-set PATH=%PATH%;C:\Program Files\7-Zip\
-```
-
-See: https://stackoverflow.com/a/14122808
 
 ### Github Repo
 
@@ -77,7 +52,6 @@ error: failed to push some refs to 'github.com:gxjb/ableton-git.git'
 4. Then try to push from locally again.
 
 See: https://stackoverflow.com/a/74868040
-
 
 ## Contributing
 
