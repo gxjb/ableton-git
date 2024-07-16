@@ -17,15 +17,6 @@ This project provides a setup for managing Ableton Live project files (*.als) wi
 6. ...
 7. Profit!
 
-TODO 
-- [ ] dieses README fixen
-- [ ] demo project fixen -> .als.xml entfernen
-- [ ] "Use this Template" -> erklären
-- [X] git config filter.<filter_name>.clean "command or external script for clean"
-- [X] git config filter.<filter_name>.smudge "command or external script for smudge"
-- [X] setup.cmd werden user mit doppelclick ausführen, daher sollte man eine success! meldung anzeigen mit pause
-- [X] lokales repo fixen -> mit David Montag Abend
-
 ## Usage
 
 ```
