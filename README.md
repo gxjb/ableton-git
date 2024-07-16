@@ -37,7 +37,7 @@ batch response: This repository is over its data quota. Account responsible for 
 error: failed to push some refs to 'github.com:gxjb/ableton-git.git'
 ```
 
-1. Go to your repo settings.
+1. Go to your github repo settings.
 2. Scroll down to the archives section.
 3. Check on the checkbox of Include Git LFS objects in archives.
 4. Then try to push from locally again.
