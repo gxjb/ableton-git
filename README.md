@@ -11,11 +11,12 @@ This project provides a setup for managing Ableton Live project files (*.als) wi
 
 1. Navigate to https://github.com/gxjb/ableton-git
 2. On the top right, press the green button "Use this template" -> "Create a new repository"
-3. Run `./setup.cmd`
-4. Copy your Ableton projects to this folder
-5. Use this repo like you use any other git repo (git add, git commit, git push, etc.)
-6. ...
-7. Profit!
+3. `git clone` the created repository and `cd` into it
+4. Run `./setup.cmd`
+5. Copy your Ableton projects to this folder
+6. Use this repo like you use any other git repo (git add, git commit, git push, etc.)
+7. ...
+8. Profit!
 
 ## Usage
 
